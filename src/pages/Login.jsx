@@ -11,6 +11,7 @@ function Login() {
   const [userData, setUserData] = useState({});
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  window.scrollTo(0, 0);
 
   const changeHandler = (e) => {
     const {id, value} = e.target;

@@ -15,6 +15,7 @@ function Registration() {
     phone: ''
   });
   const navigate = useNavigate();
+  window.scrollTo(0, 0);
 
   const changeHandler = (e) => {
     const {id, value} = e.target;
