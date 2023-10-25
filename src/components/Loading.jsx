@@ -6,7 +6,7 @@ function Loading() {
     //timer for get product
     setTimeout(() => {
         setTime(true)
-    }, 500);
+    }, 700);
 
   return (
     <>
