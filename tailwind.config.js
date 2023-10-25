@@ -36,7 +36,11 @@ export default {
         100: '#4b4b4b',
       }
     },
-    extend: {},
+    extend: {
+      animation: {
+        'pulse-fast': 'pulse 0.4s linear infinite',
+      }
+    }
   },
   plugins: [],
 }
