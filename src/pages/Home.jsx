@@ -45,7 +45,7 @@ function Home() {
             <Card key={product.id} {...product} />
           ))
           :
-          <div className="col-span-3">
+          <div className="col-span-12">
             <Loading />
           </div>
         }

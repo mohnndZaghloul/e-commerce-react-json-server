@@ -1,11 +1,12 @@
 import { BiSolidLeftArrow, BiSolidRightArrow } from 'react-icons/bi';
 import { useState } from 'react';
+// import img from '../assets/images/shopping_bags_noba.svg'
 
 function Slider() {
     const imgArray = [
-        '../../images/shopping_bags_noba.svg',
-        '../../images/add_to_cart_re_wrdo.svg',
-        '../../images/web_shopping_re_owap.svg',
+        '../assets/images/shopping_bags_noba.svg',
+        '../assets/images/add_to_cart_re_wrdo.svg',
+        '../assets/images/web_shopping_re_owap.svg',
     ];
     const [currentImg, setCurrentImg] = useState(0);
 
