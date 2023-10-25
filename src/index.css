@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .link {
+        @apply hover:text-green-200 hover:bg-darkshadow-100 transition py-5 px-3;
+    }
+    .footer-link {
+        @apply cursor-pointer hover:text-green-100 transition ;
+    }
+    .btn {
+        @apply rounded-full px-4 py-2 bg-green-100 font-semibold hover:bg-green-200 transition ;
+    }
+    .btn-sec {
+        @apply rounded-full px-4 py-2 text-green-100 font-semibold hover:text-green-200 bg-darkshadow-100 hover:bg-darkshadow-200 transition ;
+    }
+    .add-btn {
+        @apply text-3xl border-2 p-2 border-darkshadow-100 rounded-xl text-darkshadow-100 font-semibold hover:text-green-200 hover:border-green-200 transition;
+    }
+    .remove-btn {
+        @apply text-3xl border-2 p-2 border-darkshadow-100 rounded-xl text-darkshadow-100 font-semibold hover:text-redorange-200 hover:border-redorange-200 transition;
+    }
+    .social-icon {
+        @apply border-2 rounded-full my-4 p-1 cursor-pointer text-xl transition hover:text-green-200 hover:border-green-200;
+    }
+}
